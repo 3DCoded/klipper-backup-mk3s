@@ -3,4 +3,6 @@ def add(a, b):
 
 a = kwargs.get('a', 0)
 b = kwargs.get('b', 0)
-print(add(a, b))
+c = add(a, b)
+print(c)
+output(f'{a} + {b} = {c}')
