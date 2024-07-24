@@ -1,8 +1,4 @@
-def add(a, b):
-  return a + b
+ext_temp = printer.lookup_object('extruder').heater.get_temperature()
+ext_target = printer.lookup_object('extruder').heater.get_target()
 
-a = kwargs.get('a', 0)
-b = kwargs.get('b', 0)
-c = add(a, b)
-print(c)
-output(f'{a} + {b} = {c}')
+print(f'{ext_temp}ºC/{ext_target}ºC')
