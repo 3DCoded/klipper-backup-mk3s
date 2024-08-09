@@ -1,5 +1,3 @@
-[include mmu/base/*.cfg]
-[include mmu/optional/client_macros.cfg]
 [include mainsail.cfg]
 # [include fluidd.cfg]
 [include moonraker_obico_macros.cfg]
