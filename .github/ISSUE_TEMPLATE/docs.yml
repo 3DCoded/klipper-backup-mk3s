@@ -20,7 +20,6 @@ body:
         - Unclear information
         - Improved explanation
         - Removed confusion
-      default: 0
     validations:
       required: true
   - type: textarea
