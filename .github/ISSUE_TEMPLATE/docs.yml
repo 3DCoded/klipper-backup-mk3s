@@ -15,11 +15,11 @@ body:
       label: What kind of documentation issue is this?
       description: Choose as many as apply.
       options:
-        - Typo
-        - Incorrect information
-        - Unclear information
-        - Improved explanation
-        - Removed confusion
+        - label: Typo
+        - label: Incorrect information
+        - label: Unclear information
+        - label: Improved explanation
+        - label: Removed confusion
     validations:
       required: true
   - type: textarea
