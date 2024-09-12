@@ -1,1 +1,2 @@
-print(str(printer.lookup_object('query_endstops')))
+import time
+print(time.time())
