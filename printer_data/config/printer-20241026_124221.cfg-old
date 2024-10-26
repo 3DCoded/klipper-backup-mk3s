@@ -1,5 +1,7 @@
 [virtual_pins]
 
+[include mmu/base/*.cfg]
+[include mmu/optional/client_macros.cfg]
 [include .dynamicmacros.cfg]
 [include mainsail.cfg]
 # [include fluidd.cfg]
