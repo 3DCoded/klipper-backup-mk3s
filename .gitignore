@@ -1,2 +1,4 @@
-*.csv
-*.zip
+.env
+secrets.conf*.zip
+*.swp
+*.tmp
