@@ -1,6 +1,6 @@
 import threading
 
-t = threading.Thread(target=print, args=('second',))
+t = threading.Thread(target=gcode, args=('M109 S200',))
 t.run()
 
-print('hello from main thread')
+print('Printer is heating now...')
