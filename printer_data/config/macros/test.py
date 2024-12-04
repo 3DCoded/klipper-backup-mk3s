@@ -1,2 +1,1 @@
-import time
-print(time.time())
+print('hello from main thread')
