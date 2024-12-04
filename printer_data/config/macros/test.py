@@ -1,6 +1,8 @@
 import threading
 
-t = threading.Thread(target=gcode, args=('M109 S200',))
+print('Hello before')
+
+t = threading.Thread(target=print, args=('Hello from thread',))
 t.run()
 
-print('Printer is heating now...')
+print('Hello after')
